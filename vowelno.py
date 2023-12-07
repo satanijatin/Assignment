@@ -1,7 +1,6 @@
-chars=str(input("Enter Value: "))
-vowels = ["a", "e", "i", "o", "u"]
+character = input("Enter a character: ")
 
-if chars.lower() in vowels:
-  print("The letter  is a vowel.")
+if character == 'a' or character == 'e' or character == 'i' or character == 'o' or character == 'u':
+    print("character is a vowel.")
 else:
-  print("The letter is not a vowel.")
+    print("character is not a vowel.")
